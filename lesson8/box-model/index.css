@@ -1,0 +1,18 @@
+.card{
+    background-color: beige;
+    text-align: center;
+    padding: 20px 10px;
+    border: 1px solid black;
+    margin: 10px;
+    box-sizing: border-box;  /*не враховуэ марджин але враховуэширина мыстить не лище контент а ы ширина мыстить все значно ширше також просто падынги враховуэ */
+}
+.card button {
+    padding:  10px 30px;
+    font-size: 16px;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.card button {
+    font-weight: 500;
+}

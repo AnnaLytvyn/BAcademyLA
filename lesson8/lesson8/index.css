@@ -1,0 +1,118 @@
+.class1{
+    background-color: blue;
+}
+
+.class2{
+    background-color: yellow;
+}
+
+.class3{
+    background-color: red;
+}
+.class4{
+    background-color: yellow;
+}
+/* select element that have both of the classes / for elements that have only obe of them would not wt / */
+.class1.class2 {
+font-weight: 700;
+}
+
+/*select all elements of classs3 taht are children of class1 */
+.class1 .class3 {
+    color: white;
+}
+/*select class that is immidealty after class1*/
+.class1 + .class2 {
+    font-size: 30px;
+}
+/* seelct class that is under class1 but not required excactly under can be in any other position */
+.class1 ~ .class4 {
+    text-decoration: line-through; /**/
+}
+/* only for class3 that were included into class1*/
+.class1 > .class3 {
+    border: 2px
+}
+/**/
+.animal {
+    font-size: 18px;
+    color:aqua;
+    font-weight: 700;
+    background-color: beige ;
+    text-decoration: underline;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.ul {
+
+}
+.animal:first-child {
+    color:aqua;
+    background-color: #b3d4fc;
+}
+
+.animal:last-child {
+    color:black;
+    background-color: silver;
+}
+.animal:nth-child(3) {
+background-color: darkred;
+}
+
+/*стани псевдокласів */
+.name {
+color: blue;
+}
+.age {
+color: blueviolet;
+}
+
+.last {
+    color: blueviolet;
+}
+
+.button:disabled{
+    background-color: lightgrey;
+    color: darkred;
+}
+/*hover наводимо на елемент */
+.button:hover {
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+    color:blue;
+}
+/*стилі для кнопки дізейблер*/
+/*коли юзер клікнув*/
+.button:active {
+    background-color: darkseagreen;
+}
+.info:checked{
+    color: chartreuse;
+    box-shadow: chartreuse;
+}
+.age:focus {
+    color: cadetblue;
+}
+
+input:not(.age, .last)
+{background-color: darkmagenta}
+
+.preudo_not{
+
+}
+.pseudo_element:visited{
+    color: darkseagreen;
+}
+.hello:before {
+    content: ")";
+}
+.hello:after {
+    content: ")";
+}
+.user:hover::after{
+    content:"anna";
+}
