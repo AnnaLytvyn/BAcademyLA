@@ -1,0 +1,35 @@
+body {
+  color: pink;
+}
+.container {
+  display: grid;
+  gap: 10px 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "header header header"
+    "article article aside"
+    "footer footer footer";
+}
+container > * {
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+header {
+  grid-area: header;
+  background-color: green;
+}
+
+article {
+  grid-area: article;
+  background-color: black;
+}
+
+aside {
+  grid-area: aside;
+  background-color: red;
+}
+footer {
+  grid-area: footer;
+  background-color: #ff8984;
+}
