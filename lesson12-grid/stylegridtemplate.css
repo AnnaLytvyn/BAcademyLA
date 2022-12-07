@@ -10,7 +10,7 @@ body {
     "article article aside"
     "footer footer footer";
 }
-container > * {
+.container > * {
   padding: 1rem;
   border-radius: 10px;
 }
