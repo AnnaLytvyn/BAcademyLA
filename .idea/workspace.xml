@@ -4,33 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db3ab7d-4461-4dae-a929-93fb24e62b18" name="Changes" comment="Assets" />
+    <list default="true" id="3f7fb533-c025-4d95-984e-6078fd9e57bf" name="Changes" comment="Assets">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lesson3/HW-Git-GitHub" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -39,161 +28,49 @@
       </list>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2HbCTJKpsH4RCBY00oKi6su5hJx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/Anna/Desktop/BAcademyLA/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="history" />
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="indexcss.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BAcademyLA/lesson7CSS/CSShomework/indexcss.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.indexcss.html" />
-        <item itemvalue="JavaScript Debug.indexcss.html" />
-        <item itemvalue="JavaScript Debug.indexcss.html" />
-        <item itemvalue="JavaScript Debug.indexcss.html" />
-        <item itemvalue="JavaScript Debug.indexcss.html" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="5db3ab7d-4461-4dae-a929-93fb24e62b18" name="Changes" comment="" />
-      <created>1668544405776</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1668544405776</updated>
-      <workItem from="1668544410155" duration="785000" />
-      <workItem from="1669066109336" duration="9672000" />
-      <workItem from="1669157864277" duration="14128000" />
-      <workItem from="1669289719402" duration="6625000" />
-      <workItem from="1669336679414" duration="8128000" />
-      <workItem from="1669375418872" duration="3158000" />
-      <workItem from="1669450788484" duration="8626000" />
-      <workItem from="1669509647488" duration="8191000" />
-      <workItem from="1669604525122" duration="70000" />
-      <workItem from="1669604599438" duration="62000" />
-      <workItem from="1669604673095" duration="2495000" />
-      <workItem from="1669636325181" duration="550000" />
-      <workItem from="1669636885575" duration="199000" />
-      <workItem from="1669637089217" duration="374000" />
-      <workItem from="1669637467872" duration="117000" />
-      <workItem from="1669637588453" duration="239000" />
-      <workItem from="1669637832338" duration="72000" />
-      <workItem from="1669637930792" duration="964000" />
-      <workItem from="1669638932747" duration="1077000" />
-      <workItem from="1669640087377" duration="409000" />
-      <workItem from="1669640502282" duration="64000" />
-      <workItem from="1669640594995" duration="216000" />
-      <workItem from="1669640998087" duration="358000" />
-      <workItem from="1669641676455" duration="642000" />
-      <workItem from="1669643951658" duration="236000" />
-    </task>
-    <task id="LOCAL-00001" summary="HTML and CSS homework css (lesson 7) Figma">
-      <created>1669605449123</created>
+    <task id="LOCAL-00001" summary="Modules">
+      <created>1669644304286</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1669605449123</updated>
+      <updated>1669644304286</updated>
     </task>
-    <task id="LOCAL-00002" summary="HTML and CSS homework css (lesson 7) Figma">
-      <created>1669639576747</created>
+    <task id="LOCAL-00002" summary="Modules">
+      <created>1669644489361</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1669639576747</updated>
+      <updated>1669644489361</updated>
     </task>
-    <task id="LOCAL-00003" summary="Assets">
-      <created>1669639809446</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669639809446</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="remotes/origin/lesson3/HW-Git-GitHub" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="remotes/origin/lesson3/HW-Git-GitHub" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTML and CSS homework css (lesson 7) Figma" />
-    <MESSAGE value="Assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assets" />
+    <MESSAGE value="Modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modules" />
   </component>
 </project>
