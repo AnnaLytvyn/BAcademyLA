@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap");
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  width: auto;
+  max-width: 1440px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  width: 238px;
+}
+header nav span {
+  color: green;
+}
+
+article h2 {
+  margin: 70px 0 40px 0;
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+}
+article h2 sup {
+  font-family: "Farro", sans-serif;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  font-weight: 300;
+}
+article p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+/*# sourceMappingURL=style.css.map */
