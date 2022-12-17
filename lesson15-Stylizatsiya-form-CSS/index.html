@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="account">
+        <h2>Create an Account</h2>
+        <form class="form">
+          <div class="form-group">
+            <label>
+              First name
+              <input
+                type="text"
+                name="name"
+                id="first-name"
+                placeholder="Enter your first name"
+              />
+            </label>
+            <label>
+              Last name
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your last name"
+              />
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="Enter your email" />
+              <span class="hint">
+                We'll never share your email with anyone else.
+              </span>
+            </label>
+          </div>
+          <div class="form-group">
+            <div>
+              <label>
+                <input type="radio" name="gender" value="male" />
+                Male
+              </label>
+              <label>
+                <input type="radio" name="gender" value="female" />
+                Female
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>
+              Country
+              <select name="country">
+                <option value="Ukraine">Ukraine</option>
+              </select>
+            </label>
+            <label>
+              City
+              <input type="text" name="city" placeholder="Enter your email" />
+            </label>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="full-width">Sign Up</button>
+          </div>
+        </form>
+        <p>
+          By clicking the 'Sign Up' button, you confirm that you accept our and.
+          <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>
+        </p>
+        <hr />
+        <span>Have an account?</span>
+        <a href class="log-in">Log In</a>
+      </div>
+      <div class="profile">
+        <h2>Profile</h2>
+        <form class="form">
+          <div class="form-group">
+            <img src="assets/images/image.png" alt="" />
+            <div>
+              <input type="file" />
+              <i class="fa-solid fa-camera"></i>
+              <button>
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <span class="hint">Up to 1 MB (300x300 px)</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>
+              Name
+              <input type="text" name="name" />
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" required />
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              Country
+              <input
+                type="text"
+                name="country"
+                class="country"
+                placeholder="Select"
+              />
+            </label>
+            <label>
+              City
+              <input type="text" name="city" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              Zip code
+              <input type="number" name="zip-code" required minlength="5" />
+            </label>
+            <label>
+              Phone number
+              <input type="tel" name="phone" />
+            </label>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="update-button">Update</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

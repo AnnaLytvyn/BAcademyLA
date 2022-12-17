@@ -1,0 +1,84 @@
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto, serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #1c1c1c;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.form-group input[type=text],
+.form-group input[type=email],
+.form-group input[type=number],
+.form-group input[type=tel],
+.form-group select {
+  height: 38px;
+  border-radius: 6px;
+  border: 1px solid #e4e4e4;
+  margin-top: 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-group input[type=text]:focus,
+.form-group input[type=email]:focus,
+.form-group input[type=number]:focus,
+.form-group input[type=tel]:focus,
+.form-group select:focus {
+  border-color: #007bff;
+}
+.form-group label {
+  flex: 1;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.account,
+.profile {
+  padding: 35px 35px 16px 35px;
+  width: 570px;
+  background-color: white;
+}
+
+button[type=submit] {
+  height: 38px;
+  text-align: center;
+  background: #007bff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  color: white;
+}
+
+.update-button {
+  width: 150px;
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.log {
+  color: #007bff;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+}
+
+/*# sourceMappingURL=style.css.map */

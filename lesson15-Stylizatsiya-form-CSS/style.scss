@@ -1,0 +1,85 @@
+$azure: #007bff;
+$titanium-white: #e4e4e4;
+$cold-morning: #e5e5e5;
+
+body {
+  background-color: $cold-morning;
+  font-family: Roboto, serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #1c1c1c;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="tel"],
+  select {
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid $titanium-white;
+    margin-top: 7px;
+    width: 100%;
+    box-sizing: border-box;
+
+    &:focus {
+      border-color: $azure;
+    }
+  }
+
+  label {
+    flex: 1;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.account,
+.profile {
+  padding: 35px 35px 16px 35px;
+  width: 570px;
+  background-color: white;
+}
+
+button[type="submit"] {
+  height: 38px;
+  text-align: center;
+  background: $azure;
+  border: 1px solid $titanium-white;
+  border-radius: 6px;
+  color: white;
+}
+
+.update-button {
+  width: 150px;
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.log {
+  color: $azure;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+}
