@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap");
+
 body {
   margin: 0;
   width: 1440px;
@@ -13,7 +14,6 @@ main {
   margin-right: 120px;
   margin-left: 120px;
 }
-
 header {
   width: 1220px;
   height: 80px;
@@ -42,31 +42,32 @@ nav span {
   padding: 0;
 }
 
-article h2 {
-  margin: 70px 0 40px 0;
-  font-family: "Francois One", sans-serif;
-  text-transform: uppercase;
-  font-size: 36px;
-  line-height: 48px;
-  letter-spacing: 0.04em;
-}
-article h2 sup {
-  font-family: "Farro", sans-serif;
-  text-transform: none;
-  font-size: 20px;
-  letter-spacing: 0.04em;
-  font-weight: 300;
-}
-article p {
-  font-family: "PT Sans", sans-serif;
-  font-size: 28px;
-  line-height: 40px;
-}
-article p .color {
-  background-color: #bdc3c7;
-}
-article span .text-decoration {
-  text-decoration: underline;
-}
+article {
+  h2 {
+    margin: 70px 0 40px 0;
+    font-family: "Francois One", sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
 
-/*# sourceMappingURL=style.css.map */
+    sup {
+      font-family: "Farro", sans-serif;
+      text-transform: none;
+      font-size: 20px;
+      letter-spacing: 0.04em;
+      font-weight: 300;
+    }
+  }
+  p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  p .color {
+    background-color: #bdc3c7;
+  }
+  span .text-decoration {
+    text-decoration: underline;
+  }
+}
