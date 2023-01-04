@@ -42,7 +42,7 @@ body {
 
   .light & {
     top: 496.12px;
-    height: 825.75px;
+    height: 70vw;
     background: linear-gradient(183.11deg, transparent 46.73%, white 63.21%);
   }
 
@@ -155,7 +155,7 @@ body {
 }
 
 .first {
-  margin: 150px 114px;
+  margin: 150px auto 114px auto;
   @include mixins.mobile() {
     margin: 50px 0;
   }
@@ -455,7 +455,11 @@ body {
     }
 
     &__caption {
-      @include mixins.playfairTitleDefault(20px, 20px, 0);
+      color: white;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
       font-style: italic;
       letter-spacing: 0.08em;
     }
