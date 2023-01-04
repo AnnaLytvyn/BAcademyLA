@@ -155,7 +155,7 @@ body {
 }
 
 .first {
-  margin: 150px 114px;
+  margin: 150px auto 114px auto;
   @include mixins.mobile() {
     margin: 50px 0;
   }
