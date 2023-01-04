@@ -15,24 +15,23 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 26px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @include mixins.mobile() {
+    padding: 0 10px;
+  }
 
   &.light {
     color: colors.$maritime-blue-80;
+    background-image: url(assets/images/bg-light.png);
   }
 
   &.dark {
     color: colors.$white-80;
+    background-image: url(assets/images/bg-dark.png);
+    background-color: colors.$tristesse;
   }
-}
-
-.light,
-.dark {
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.light {
-  background-image: url(assets/images/bg-light.png);
 }
 
 .gradient {
@@ -52,15 +51,10 @@ body {
     top: 441px;
     background: linear-gradient(
       183.11deg,
-      rgba(22, 25, 38, 0) 46.73%,
+      transparent 46.73%,
       colors.$coarse-wool 63.21%
     );
   }
-}
-
-.dark {
-  background-image: url(assets/images/bg-dark.png);
-  background-color: colors.$tristesse;
 }
 
 .wrapper {
@@ -71,6 +65,11 @@ body {
 .header {
   backdrop-filter: blur(4.5px);
   margin-top: 30px;
+
+  @include mixins.mobile() {
+    margin: 0 -10px;
+    padding: 10px;
+  }
 
   .light & {
     background: linear-gradient(
@@ -95,6 +94,7 @@ body {
   &-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -112,9 +112,10 @@ body {
   &-content-menu {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 0 30px;
     height: 80px;
 
     &__link {
@@ -154,8 +155,10 @@ body {
 }
 
 .first {
-  margin-top: 150px;
-  margin-bottom: 154px;
+  margin: 150px 0;
+  @include mixins.mobile() {
+    margin: 50px 0;
+  }
 
   .inner {
     max-width: 523px;
@@ -178,18 +181,26 @@ body {
 .info {
   background: url(./assets/images/city.png) no-repeat;
   margin-bottom: 120px;
-  height: 670px;
   padding: 45px 0 45px 400px;
   box-sizing: border-box;
+
+  @include mixins.mobile() {
+    padding: 0;
+    width: 100%;
+  }
 
   &-content {
     display: flex;
     padding: 45px 0;
 
+    @include mixins.mobile() {
+      display: block;
+    }
+
     @include mixins.themedBackground();
 
     &-list {
-      width: 370px;
+      flex: 37;
 
       &-item {
         text-align: center;
@@ -222,7 +233,7 @@ body {
     }
 
     &-text {
-      width: 400px;
+      flex: 40;
 
       &__text {
         margin: 0 0 50px 0;
@@ -242,10 +253,14 @@ body {
   grid-gap: 60px 30px;
   margin-bottom: 120px;
 
+  @include mixins.mobile() {
+    display: block;
+  }
+
   &-item {
     border-top: 1px solid;
     @include mixins.themedBorder();
-    height: 280px;
+    min-height: 280px;
     padding: 30px 35px 0 35px;
     box-sizing: border-box;
 
@@ -256,12 +271,16 @@ body {
 }
 
 .quote {
-  height: 400px;
   background-image: url("assets/images/quote-background.png");
   background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 120px;
   padding: 100px 300px 100px 160px;
   box-sizing: border-box;
+
+  @include mixins.mobile() {
+    padding: 10px 30px 10px 16px;
+  }
 
   &__text-first {
     position: relative;
@@ -304,6 +323,11 @@ body {
 .video {
   width: 970px;
   margin: 0 auto 120px auto;
+
+  @include mixins.mobile() {
+    width: 100%;
+    overflow: hidden;
+  }
 
   &-screensaver {
     position: relative;
@@ -359,30 +383,24 @@ body {
     }
   }
 
-  .inner {
-    display: flex;
-    width: 970px;
-    flex-direction: column;
-    align-items: start;
-    padding: 0;
-    gap: 20px;
+  &__title {
+    @include mixins.playfairTitleDefault();
+  }
 
-    &-title {
-      @include mixins.playfairTitleDefault();
-
-      &-text {
-        width: 885px;
-      }
-    }
+  &__text {
+    width: 885px;
   }
 }
 
 .promises {
   background: url(./assets/images/features-background-image.png) no-repeat;
   margin-bottom: 120px;
-  height: 540px;
   padding: 45px 0 45px 399px;
   box-sizing: border-box;
+
+  @include mixins.mobile() {
+    padding: 0;
+  }
 
   &-content {
     display: grid;
@@ -391,6 +409,9 @@ body {
     align-items: center;
     padding: 75px 0 75px 70px;
 
+    @include mixins.mobile() {
+      padding: 0;
+    }
     @include mixins.themedBackground();
 
     &-item {
@@ -423,6 +444,10 @@ body {
     align-items: stretch;
     color: colors.$white-80;
     gap: 30px;
+
+    @include mixins.mobile() {
+      display: block;
+    }
 
     &__quote {
       font-size: 16px;
@@ -462,7 +487,7 @@ body {
   }
 
   &-heading {
-    width: 400px;
+    max-width: 400px;
 
     &__title {
       @include mixins.playfairTitleDefault();
@@ -481,6 +506,10 @@ body {
   padding: 60px 0 104px 0;
   gap: 230px;
   display: flex;
+
+  @include mixins.mobile() {
+    display: block;
+  }
 
   &__title {
     @include mixins.playfairTitleDefault(44px, 52px);
@@ -505,6 +534,7 @@ body {
       letter-spacing: 0.08em;
       padding: 12px 12px 12px 0;
       background-color: unset;
+      box-sizing: border-box;
 
       .light & {
         border-color: colors.$maritime-blue-10;
